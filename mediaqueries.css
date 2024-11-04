@@ -1,0 +1,57 @@
+@media screen and (max-width: 1200px){
+   
+    #navbar {
+        display: none;
+    }
+
+    #hamburger-nav{
+        display: flex;
+    }
+    
+    .night{
+        display:none;
+    }
+    .intro h1{
+        font-size: 4rem;
+    }
+    .intro h2{
+        font-size: 2.5rem;
+    }
+    .intro p{
+        font-size: 1.5rem;
+    }
+    .name, .intro h2{
+        text-shadow: rgb(255, 230, 0) -1px -2px 3px;
+    }
+    .fox{
+        right: 5vw;
+    }
+
+    
+    .myprofile{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .aboutme{
+        margin: 50px;
+    }
+    .skills{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        padding: 20px;
+    }
+
+    .myemail{
+        font-size: 2rem;
+    }
+
+    .fantasy{
+        display: none;
+    }
+
+}
+
