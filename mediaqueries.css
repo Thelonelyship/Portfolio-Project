@@ -4,10 +4,9 @@
         display: none;
     }
 
-    #hamburger-nav{
-        display: flex;
+    #hamburger-nav {
+        display: flex; 
     }
-    
     .night{
         display:none;
     }
@@ -24,10 +23,9 @@
         text-shadow: rgb(255, 230, 0) -1px -2px 3px;
     }
     .fox{
-        right: 5vw;
+        right: 20vw;
     }
 
-    
     .myprofile{
         display: block;
         justify-content: center;
@@ -43,6 +41,7 @@
         align-items: center;
         flex-direction: row;
         padding: 20px;
+        background: none;
     }
 
     .myemail{
@@ -52,6 +51,212 @@
     .fantasy{
         display: none;
     }
-
 }
 
+
+@media (max-width: 992px) {
+
+    #hamburger-nav {
+        display: flex;
+        justify-content: space-between;
+        width: 90vw;
+    }
+
+    .logoimage{
+        display: none;
+    }
+
+    .logo{
+       margin-left: 40px;
+    }
+
+    .night {
+        display: none;
+    }
+
+    .intro h1 {
+        font-size: 3.5rem; 
+    }
+
+    .intro h2 {
+        font-size: 2rem;
+    }
+
+    .intro p {
+        font-size: 1.25rem;
+    }
+
+    .name, .intro h2 {
+        text-shadow: rgb(255, 230, 0) -1px -1px 2px;
+    }
+
+    .fox {
+        right: 30vw;
+    }
+
+    .myprofile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .aboutme {
+        margin: 30px;
+        padding: 10px;
+    }
+
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .myemail {
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    #hamburger-nav {
+        display: flex;
+        justify-content: center;
+        height: 100px;
+        width: 550px;
+        cursor: pointer;
+    }
+
+   
+    #hamburger-nav a {
+        font-size: 1.2rem; 
+        padding: 10px 15px; 
+        color: #fff; 
+        text-decoration: none; 
+        width: 100%; 
+        display: block; 
+    }
+
+
+    
+    #hamburger-nav a:hover {
+        background-color: #555; 
+    }
+
+    .logo{
+        display:none;
+    }
+    .intro h1 {
+        font-size: 2.5rem;
+    }
+
+    .intro h2 {
+        font-size: 1.8rem;
+    }
+
+    .intro p {
+        font-size: 1.1rem;
+    }
+
+    .fox {
+        right: 30vw;
+    }
+
+    .aboutme {
+        margin: 30px;
+        padding: 20px;
+    }
+
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .myemail {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    #hamburger-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column; 
+        width: auto; 
+    }
+
+   
+    #hamburger-nav a:hover {
+        background-color: #555; 
+    }
+
+    .logo{
+        display:none;
+    }
+   
+    .intro h1 {
+        font-size: 1.8rem;
+        margin: 5px 0;
+    }
+
+    .intro h2 {
+        font-size: 1.3rem;
+    }
+
+    .intro p {
+        font-size: 0.9rem;
+        padding: 0 5px;
+    }
+
+    .name, .intro h2 {
+        text-shadow: rgb(255, 230, 0) -0.5px -0.5px 1px;
+    }
+
+   
+    .fox {
+        right: 30vw;
+    }
+
+   
+    .myprofile {
+        padding: 5px;
+        margin: 15px;
+    }
+
+    .aboutme {
+        margin: 30px;
+        padding: 5px;
+        font-size: 0.9rem; 
+    }
+
+    
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 15px;
+    }
+
+   
+    .myemail {
+        font-size: 0.9rem;
+    }
+
+   
+    .night, .fantasy {
+        display: none;
+    }
+
+   
+    body, .container {
+        padding: 5px;
+        margin: 0;
+    }
+}
