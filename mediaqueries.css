@@ -341,8 +341,8 @@
     }
 
     
-    .night, .night2, .night3, .night4, .star .fantasy {
-        display: none;
+    .night, .night2, .night3, .night4, .star, .fantasy {
+        display: none !important;
     }
 
     .projectcontainers {
