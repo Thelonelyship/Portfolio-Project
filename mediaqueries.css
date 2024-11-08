@@ -173,8 +173,8 @@
         margin: 60px;
         padding: 20px;
     }
-    .selfie{
-        width: 100%;
+    #profile .myprofile .selfie img{
+        width: 400px;
     }
 
     .skills {
@@ -323,8 +323,8 @@
         margin: 60px;
         padding: 20px;
     }
-    .selfie{
-        width: 300px;
+    #profile .myprofile .selfie img{
+        width: 200px;
     }
 
     
@@ -341,8 +341,8 @@
     }
 
     
-    .night, .fantasy {
-        display: none; /
+    .night, .night2, .night3, .night4, .star .fantasy {
+        display: none;
     }
 
     .projectcontainers {
