@@ -816,7 +816,7 @@ h3{
   flex-direction: column;
   gap: 10px;
   max-width: 600px;
-  max-height: 100vh;
+  max-height: 100%;
   margin:auto auto;
   margin-bottom: 200px;
   padding: 20px;
