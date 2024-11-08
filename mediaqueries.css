@@ -145,6 +145,11 @@
         background-color: #555; 
     }
 
+    .hamburgermenu-links{
+        width: 50vw;
+        height: 60vh;
+    }
+
     .logo{
         display:none;
     }
@@ -195,6 +200,10 @@
    
     #hamburger-nav a:hover {
         background-color: #555; 
+    }
+    .hamburgermenu-links{
+        width: 50vw;
+        height: 60vh;
     }
 
     .logo{
