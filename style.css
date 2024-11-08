@@ -19,7 +19,9 @@ body{
 }
 
 
-
+.hide{
+  display: none;
+}
 
 
 
@@ -595,7 +597,7 @@ h3{
 .selfie{
   grid-column: 1;
   transform: rotate(15deg);
-  filter:drop-shadow(0px 0px 15px rgb(60, 0, 95));
+  filter:drop-shadow(0px 0px 5px rgb(0, 0, 0));
 }
 
 /* ! About Me Text */
@@ -654,11 +656,39 @@ h3{
 }
 .projectcontainers{
   display: grid;
-  margin: 15px;
+  margin: 25px;
   gap: 40px;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 3fr));
+  grid-template-columns: repeat(auto-fit, minmax(600px, 2fr));
         flex-direction: column;
         flex-wrap: wrap;
+}
+
+
+.tech img {
+  width: 50px;
+}
+
+.projectimage{
+  width: 100%;
+}
+
+.buttoncontainer{
+  display: flex;
+  width: 100%;
+}
+.apppreviewbutton, .appinfobutton{
+  width: 50%;
+  height: 60px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.apppreviewbutton{
+  border-top-left-radius: 25px;
+}
+.appinfobutton{
+  border-top-right-radius: 25px;
 }
 
 
@@ -676,16 +706,15 @@ h3{
 .project1{
   background: hsl(27, 5%, 11%, 0.04);
   box-shadow: 2px 2px 30px rgb(36, 0, 59);
-  border: 1px solid black;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
   background: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.project1 img{
-  width: 100%;
-}
+
 .project2{
   background: hsl(27, 5%, 11%, 0.04);
   box-shadow: 2px 2px 10px black;
@@ -728,6 +757,23 @@ h3{
   align-items: center;
 }
 
+.appinfo{
+  text-align: center;
+  padding: 20px;
+  line-height: 2;
+}
+
+.project1 .appinfo ol li{
+  list-style: none;
+}
+
+.appinfo h2{
+  font-size: 40px;
+}
+
+.appinfo p{
+  color: black;
+}
 
 /* ! Project Buttons */
 
