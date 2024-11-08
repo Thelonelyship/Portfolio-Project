@@ -218,6 +218,14 @@
         text-align: center;
         width: 400px;
       }
+      #contactform input,
+      #contactform textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+}
 
 
 }
@@ -388,7 +396,12 @@
         width: 300px;
       }
 
-    input, textarea{
-        width: 300px
-    }
+      #contactform input,
+      #contactform textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+      }
 }

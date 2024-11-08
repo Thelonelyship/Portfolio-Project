@@ -823,13 +823,13 @@ h3{
   box-shadow: 0 2px 10px rgba(151, 43, 247, 0.1);
 }
 
-.contactform label {
+#contactform label {
   font-size: 16px;
   margin-bottom: 8px;
 }
 
-.contactform input,
-.contactform textarea {
+#contactform input,
+#contactform textarea {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
@@ -837,7 +837,7 @@ h3{
   font-size: 16px;
 }
 
-.contactform button {
+#contactform button {
   padding: 10px 20px;
   background-color: #0056b3;
   color: #fff;
@@ -847,7 +847,7 @@ h3{
   cursor: pointer;
 }
 
-.contactform button:hover {
+#contactform button:hover {
   background-color: #004494;
 }
 
