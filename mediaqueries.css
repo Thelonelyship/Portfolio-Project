@@ -174,7 +174,7 @@
         padding: 20px;
     }
     #profile .myprofile .selfie img{
-        width: 500px;
+        width: 400px;
     }
 
     .skills {
@@ -324,7 +324,7 @@
         padding: 20px;
     }
     #profile .myprofile .selfie img{
-        width: 500px;
+        width: 200px;
     }
 
     
@@ -370,9 +370,12 @@
         margin: 5px 0; 
     }
 
+    #contactform{
+        margin-bottom: 50px;
+    }
+
    
     #footer {
-        margin-top: 50px;
         font-size: 0.8rem;
         padding: 10px;
     }
