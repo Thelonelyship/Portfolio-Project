@@ -170,8 +170,12 @@
     }
 
     .aboutme {
-        margin: 60px;
+        margin: 30px;
         padding: 20px;
+    }
+
+    #profile .myprofile{
+        width: 92%;
     }
     #profile .myprofile .selfie img{
         width: 400px;
@@ -284,6 +288,14 @@
         display: none;
     }
 
+    #herointro{
+        width: 100%;
+    }
+
+    .intro{
+        width: 100%;
+    }
+
     
     .intro h1 {
         font-size: 1.8rem;
@@ -310,6 +322,14 @@
         display: none; 
     }
 
+    .btn-container{
+        width: auto;
+    }
+    .btn{
+        width:50%;
+        font-size: 12px;
+    }
+
    
     .myprofile {
         padding: 5px;
@@ -320,9 +340,8 @@
     }
 
     .aboutme {
-        margin: 20px;
-        padding: 5px;
-        font-size: 0.9rem;
+        width: 350px;
+        font-size: 0.4rem;
     }
 
 
@@ -339,7 +358,7 @@
     }
 
     .myemail {
-        font-size: 0.9rem;
+        width: 100%;
         text-align: center;
     }
 
