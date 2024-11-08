@@ -71,6 +71,20 @@
         border: 2px solid rgb(144, 82, 226);
         z-index: 5;
       }
+      .topbutton a{
+        text-decoration: none;
+        color: white
+      }
+      
+      .toparrow{
+        display: flex;
+        flex-direction: column;
+        color: white;
+      }
+      
+      .topbutton:hover{
+        background-color: green;
+      }
 }
 
 
@@ -156,6 +170,20 @@
     text-align: center;
     border: 2px solid rgb(144, 82, 226);
     z-index: 5;
+  }
+  .topbutton a{
+    text-decoration: none;
+    color: white
+  }
+  
+  .toparrow{
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  
+  .topbutton:hover{
+    background-color: green;
   }
 
 
@@ -295,6 +323,20 @@
     text-align: center;
     border: 2px solid rgb(144, 82, 226);
     z-index: 5;
+  }
+  .topbutton a{
+    text-decoration: none;
+    color: white
+  }
+  
+  .toparrow{
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  
+  .topbutton:hover{
+    background-color: green;
   }
 
 
@@ -493,6 +535,42 @@
         font-size: 16px;
       }
 
+      .contactbutton{
+        width: 120px;
+        height: 50px;
+        font-size: 20px;
+        gap: 20px;
+        border-radius: 15px;
+        border: 2px solid purple;
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        box-shadow: #2bff00 0px 0px 10px;
+      }
+
+      .contactbutton:hover{
+        cursor: pointer;
+        opacity: 0.7;
+        outline: purple 2px solid;
+        animation: buttonhover 1s infinite;
+      }
+      
+      .contactbutton:active{
+        background-color: #690092;
+      }
+      
+      input:invalid, textarea:invalid{
+        border: 2px solid rgba(255, 0, 0, 0.473);
+      }
+      
+      input:valid, textarea:valid{
+        border: 2px solid greenyellow;
+      }
+      
+
+
+
+
+
       .topbutton{  
         appearance: none;
         -webkit-appearance: none;
@@ -511,5 +589,19 @@
         text-align: center;
         border: 2px solid rgb(144, 82, 226);
         z-index: 5;
+      }
+      .topbutton a{
+        text-decoration: none;
+        color: white
+      }
+      
+      .toparrow{
+        display: flex;
+        flex-direction: column;
+        color: white;
+      }
+      
+      .topbutton:hover{
+        background-color: green;
       }
 }
