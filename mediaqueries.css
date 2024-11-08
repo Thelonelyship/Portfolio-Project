@@ -316,7 +316,7 @@
         padding: 20px;
     }
     .selfie{
-        width: 100%;
+        width: 300px;
     }
 
     
@@ -387,4 +387,8 @@
         text-align: center;
         width: 300px;
       }
+
+    input, textarea{
+        width: 300px
+    }
 }
