@@ -817,7 +817,8 @@ h3{
   gap: 10px;
   max-width: 600px;
   max-height: 100vh;
-  margin: auto auto;
+  margin:auto auto;
+  margin-bottom: 200px;
   padding: 20px;
   background-color: white;
   border-radius: 8px;

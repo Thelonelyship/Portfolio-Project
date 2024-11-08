@@ -184,6 +184,12 @@
         padding: 15px;
     }
 
+    .porttitle{
+        font-size: 60px;
+        text-align: center;
+        padding: 80px;
+      }
+
     .projectcontainers {
         display: grid;
         grid-template-columns: repeat(1, 1fr); 
@@ -319,12 +325,9 @@
         font-size: 0.9rem;
     }
 
-    .aboutme {
-        margin: 60px;
-        padding: 20px;
-    }
+
     #profile .myprofile .selfie img{
-        width: 200px;
+        width: 300px;
     }
 
     
@@ -344,6 +347,12 @@
     .night, .night2, .night3, .night4, .star, .fantasy {
         display: none !important;
     }
+
+    .porttitle{
+        font-size: 40px;
+        text-align: center;
+        padding: 80px;
+      }
 
     .projectcontainers {
         display: grid;
@@ -370,14 +379,12 @@
         margin: 5px 0; 
     }
 
-    #contactform{
-        margin-bottom: 50px;
-    }
 
    
     #footer {
         font-size: 0.8rem;
         padding: 10px;
+        width: 100vw;
     }
 
     .footer-links img {
@@ -389,6 +396,7 @@
     body, .container {
         padding: 5px;
         margin: 0;
+        overflow: hidden;
     }
     .myemail a{
         font-size: 16px;
