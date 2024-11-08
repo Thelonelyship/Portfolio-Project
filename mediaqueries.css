@@ -51,6 +51,26 @@
     .fantasy{
         display: none;
     }
+
+    .topbutton{  
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance:none;
+        position: sticky;
+        bottom: 20px;      
+        margin-right:10px; 
+        place-self: end;
+        text-decoration: none;
+        padding: 10px;
+        font-family: sans-serif;
+        color: #fff;
+        background: hsl(290, 100%, 40%);
+        border-radius: 100px;
+        white-space: nowrap;
+        text-align: center;
+        border: 2px solid rgb(144, 82, 226);
+        z-index: 5;
+      }
 }
 
 
@@ -117,6 +137,26 @@
         font-size: 1.5rem;
     }
 }
+
+.topbutton{  
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance:none;
+    position: sticky;
+    bottom: 20px;      
+    margin-right:10px; 
+    place-self: end;
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #fff;
+    background: hsl(290, 100%, 40%);
+    border-radius: 100px;
+    white-space: nowrap;
+    text-align: center;
+    border: 2px solid rgb(144, 82, 226);
+    z-index: 5;
+  }
 
 
 @media (max-width: 768px) {
@@ -236,6 +276,26 @@
       border-radius: 4px;
       font-size: 16px;
 }
+
+.topbutton{  
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance:none;
+    position: sticky;
+    bottom: 20px;      
+    margin-right:10px; 
+    place-self: end;
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #fff;
+    background: hsl(290, 100%, 40%);
+    border-radius: 100px;
+    white-space: nowrap;
+    text-align: center;
+    border: 2px solid rgb(144, 82, 226);
+    z-index: 5;
+  }
 
 
 }
@@ -431,5 +491,25 @@
         border: 1px solid #ccc;
         border-radius: 4px;
         font-size: 16px;
+      }
+
+      .topbutton{  
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance:none;
+        position: sticky;
+        bottom: 20px;      
+        margin-right:10px; 
+        place-self: end;
+        text-decoration: none;
+        padding: 10px;
+        font-family: sans-serif;
+        color: #fff;
+        background: hsl(290, 100%, 40%);
+        border-radius: 100px;
+        white-space: nowrap;
+        text-align: center;
+        border: 2px solid rgb(144, 82, 226);
+        z-index: 5;
       }
 }

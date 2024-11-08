@@ -977,6 +977,9 @@ input:valid, textarea:valid{
 
 
 .topbutton{  
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance:none;
   position: sticky;
   bottom: 20px;      
   margin-right:10px; 
