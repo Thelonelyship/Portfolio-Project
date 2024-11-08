@@ -594,6 +594,7 @@ h3{
 
 .selfie{
   grid-column: 1;
+  transform: rotate(15deg);
   filter:drop-shadow(0px 0px 15px rgb(60, 0, 95));
 }
 
@@ -653,59 +654,76 @@ h3{
 }
 .projectcontainers{
   display: grid;
-  margin: 5px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  margin: 15px;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 3fr));
         flex-direction: column;
         flex-wrap: wrap;
 }
 
+
+
 /* !Portfolio Title */
 
 .porttitle{
-  font-size: 40px;
+  font-size: 80px;
   text-align: center;
-  padding: 40px;
+  padding: 80px;
 }
 
 /* ! Project Displays */
 
 .project1{
   background: hsl(27, 5%, 11%, 0.04);
-    border: 1px solid black;
-  backdrop-filter: blur(5px) brightness(125%);
+  box-shadow: 2px 2px 30px rgb(36, 0, 59);
+  border: 1px solid black;
+  background: white;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.project1 img{
+  width: 100%;
 }
 .project2{
   background: hsl(27, 5%, 11%, 0.04);
+  box-shadow: 2px 2px 10px black;
   border: 1px solid black;
-  backdrop-filter: blur(5px) brightness(125%);
+  background: white;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .project3{
   background: hsl(27, 5%, 11%, 0.04);
+  box-shadow: 2px 2px 10px black;
   border: 1px solid black;
-  backdrop-filter: blur(5px) brightness(125%);
+  background: white;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .project4{
   background: hsl(27, 5%, 11%, 0.04);
+  box-shadow: 2px 2px 10px black;
   border: 1px solid black;
-  backdrop-filter: blur(5px) brightness(125%);
+  background: white;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .project5{
   background: hsl(27, 5%, 11%, 0.04);
+  box-shadow: 2px 2px 10px black;
   border: 1px solid black;
-  backdrop-filter: blur(5px) brightness(125%);
+  background: white;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -722,9 +740,21 @@ h3{
 
 }
 .projectbtn{
-  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: #43005e;
+  font-size: larger;
+  width: 140px;
+  height: 40px;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  border: 3px solid black;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  border-radius: 12px;
+  z-index: 0;
 }
-
 
 
 
