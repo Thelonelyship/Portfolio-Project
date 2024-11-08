@@ -174,7 +174,7 @@
         padding: 20px;
     }
     #profile .myprofile .selfie img{
-        width: 400px;
+        width: 500px;
     }
 
     .skills {
@@ -231,7 +231,7 @@
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 468px) {
 
     
     #hamburger-nav {
@@ -243,7 +243,7 @@
     }
 
     .hamburgermenu-links {
-        width: 100vw;
+        width: 50vw;
         height: 60vh;
         background-color: #333;  
         position: absolute;
@@ -324,7 +324,7 @@
         padding: 20px;
     }
     #profile .myprofile .selfie img{
-        width: 200px;
+        width: 500px;
     }
 
     
@@ -372,6 +372,7 @@
 
    
     #footer {
+        margin-top: 50px;
         font-size: 0.8rem;
         padding: 10px;
     }
