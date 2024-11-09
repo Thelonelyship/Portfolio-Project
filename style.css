@@ -677,6 +677,7 @@ h3{
 .buttoncontainer{
   display: flex;
   width: 100%;
+  border-bottom: 1px solid black;
 }
 .apppreviewbutton, .appinfobutton{
   width: 50%;
@@ -688,9 +689,13 @@ h3{
 
 .apppreviewbutton{
   border-top-left-radius: 25px;
+  background-color: white;
 }
+
+
 .appinfobutton{
   border-top-right-radius: 25px;
+  background-color: grey;
 }
 
 

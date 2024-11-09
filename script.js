@@ -18,11 +18,12 @@ function reveal() {
     preview.classList.remove('hide');
     appinfo.classList.add('hide');
     previewimage.style.backgroundColor = "white";
-    info.style.backgroundColor = ""; 
+    info.style.backgroundColor = "grey"; 
   } else {
     preview.classList.remove('hide');
     appinfo.classList.add('hide');
     previewimage.style.backgroundColor = "white"; 
+    info.style.backgroundColor = "grey";
   }
 }
 
@@ -33,12 +34,12 @@ function reveal2() {
     appinfo.classList.remove('hide');
     preview.classList.add('hide');
     info.style.backgroundColor = "white";
-    previewimage.style.backgroundColor = "";
+    previewimage.style.backgroundColor = "grey";
   } else {
     appinfo.classList.remove('hide');
     preview.classList.add('hide');
     info.style.backgroundColor = "white"; 
-    previewimage.style.backgroundColor = ""; 
+    previewimage.style.backgroundColor = "grey"; 
   }
 }
 

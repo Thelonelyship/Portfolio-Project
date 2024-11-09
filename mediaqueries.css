@@ -277,8 +277,11 @@
     }
 
     .project1 img, .project2 img, .project3 img, .project4 img, .project5 img {
-        width: 100%; 
         height: auto;
+    }
+
+    .appinfo img{
+        width: 50px;
     }
 
     
@@ -494,8 +497,11 @@
     }
 
     .project1 img, .project2 img, .project3 img, .project4 img, .project5 img {
-        width: 100%; 
         height: auto;
+    }
+
+    .appinfo img{
+        width: 50px;
     }
 
     
