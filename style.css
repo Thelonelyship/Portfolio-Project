@@ -11,6 +11,7 @@
 }
 
 body{
+    margin: 0;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -19,8 +20,9 @@ body{
 }
 
 
-.hide{
-  display: none;
+.hide {
+  visibility: hidden;
+  position: absolute;
 }
 
 
@@ -670,32 +672,72 @@ h3{
   width: 50px;
 }
 
+
+
 .projectimage{
   width: 100%;
 }
 
-.buttoncontainer{
+.buttoncontainer {
   display: flex;
+  justify-content: flex-start;
   width: 100%;
   border-bottom: 1px solid black;
+  margin: 0;
+  padding: 0;
+  align-items: flex-start;
 }
-.apppreviewbutton, .appinfobutton{
+
+.apppreviewbutton, .appinfobutton {
   width: 50%;
-  height: 60px;
+  text-align: center;
   font-size: 20px;
   border: none;
   cursor: pointer;
 }
 
-.apppreviewbutton{
-  border-top-left-radius: 25px;
+.project1 .apppreviewbutton {
   background-color: white;
+  border-top-left-radius: 25px;
+  padding: 10px;
+  font-size: 20px;
+  width: 50%;
+  cursor: pointer;
+  text-align: center;
 }
 
-
-.appinfobutton{
-  border-top-right-radius: 25px;
+.project1 .appinfobutton {
   background-color: grey;
+  border-top-right-radius: 25px;
+  padding: 10px;
+  font-size: 20px;
+  width: 50%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.project2 .apppreviewbutton2 {
+  background-color: white;
+  border-top-left-radius: 25px;
+  padding: 10px;
+  font-size: 20px;
+  width: 50%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.project2 .appinfobutton2 {
+  background-color: grey;
+  border-top-right-radius: 25px;
+  padding: 10px;
+  font-size: 20px;
+  width: 50%;
+  cursor: pointer;
+  text-align: center;
+}
+
+ol{
+  list-style-type: none;
 }
 
 
@@ -710,27 +752,19 @@ h3{
 
 /* ! Project Displays */
 
-.project1{
-  background: hsl(27, 5%, 11%, 0.04);
-  box-shadow: 2px 2px 30px rgb(36, 0, 59);
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
+.project1,
+.project2 {
   background: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.project2{
-  background: hsl(27, 5%, 11%, 0.04);
   box-shadow: 2px 2px 10px black;
   border: 1px solid black;
-  background: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .project3{
@@ -766,11 +800,15 @@ h3{
 
 .appinfo{
   text-align: center;
-  padding: 20px;
   line-height: 2;
 }
 
-.project1 .appinfo ol li{
+.appinfo2{
+  text-align: center;
+  line-height: 2;
+}
+
+.project1 .appinfo .appinfo2 ol li{
   list-style: none;
 }
 
@@ -779,6 +817,14 @@ h3{
 }
 
 .appinfo p{
+  color: black;
+}
+
+.appinfo2 h2{
+  font-size: 40px;
+}
+
+.appinfo2 p{
   color: black;
 }
 
