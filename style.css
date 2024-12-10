@@ -1055,6 +1055,7 @@ input:valid, textarea:valid{
   border: 2px solid rgb(144, 82, 226);
   z-index: 5;
   max-width: 100px;
+  max-height: 100px;
 }
 
 .topbutton a {
