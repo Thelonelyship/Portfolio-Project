@@ -1036,14 +1036,14 @@ input:valid, textarea:valid{
 /* ! To Top Button */
 
 
-.topbutton{  
+.topbutton {
   appearance: none;
   -webkit-appearance: none;
-  -moz-appearance:none;
+  -moz-appearance: none;
   position: sticky;
-  bottom: 20px;      
-  margin-right:10px; 
-  place-self: end;
+  bottom: 20px;
+  right: 10px;
+  margin-right: 10px;
   text-decoration: none;
   padding: 10px;
   font-family: sans-serif;
@@ -1057,20 +1057,21 @@ input:valid, textarea:valid{
   max-width: 100px;
 }
 
-.topbutton a{
+.topbutton a {
   text-decoration: none;
-  color: white
+  color: white;
 }
 
-.toparrow{
+.toparrow {
   display: flex;
   flex-direction: column;
   color: white;
 }
 
-.topbutton:hover{
+.topbutton:hover {
   background-color: green;
 }
+
 
 
 
