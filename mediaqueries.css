@@ -234,7 +234,8 @@
     }
 
     .fox {
-        display: none;
+        right: 20vw;
+        bottom: 8.5vh;
     }
 
     .aboutme {
@@ -424,7 +425,7 @@
     }
 
     .fox {
-        display: none; 
+        right: 50vw;
     }
 
     .btn-container{

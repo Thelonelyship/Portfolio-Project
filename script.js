@@ -11,12 +11,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const info1 = document.querySelector('.appinfobutton');
   const info2 = document.querySelector('.appinfobutton2');
+  const info3 = document.querySelector('.appinfobutton3');
   const appinfo = document.querySelector('.appinfo');
   const appinfo2 = document.querySelector('.appinfo2');
+  const appinfo3 = document.querySelector('.appinfo3');
   const previewimage1 = document.querySelector('.apppreviewbutton');
   const previewimage2 = document.querySelector('.apppreviewbutton2');
+  const previewimage3 = document.querySelector('.apppreviewbutton3');
   const preview1 = document.querySelector('.preview');
   const preview2 = document.querySelector('.preview2');
+  const preview3 = document.querySelector('.preview3');
 
   function reveal() {
       if (preview1.classList.contains('hide')) {
@@ -79,5 +83,37 @@ document.addEventListener('DOMContentLoaded', function () {
           previewimage2.style.backgroundColor = "white"; 
       }
   }
+
+  function reveal5() {
+      if (preview3.classList.contains('hide')) {
+          preview3.classList.remove('hide');
+          appinfo3.classList.add('hide');
+          previewimage3.style.backgroundColor = "white";
+          info3.style.backgroundColor = "grey";
+      } else {
+          preview3.classList.add('hide');
+          appinfo3.classList.remove('hide');
+          previewimage3.style.backgroundColor = "grey"; 
+          info3.style.backgroundColor = "white"; 
+      }
+  }
+
+  previewimage3.addEventListener('click', reveal5);
+  info3.addEventListener('click', reveal6);
+
+  function reveal6() {
+      if (appinfo3.classList.contains('hide')) {
+          appinfo3.classList.remove('hide');
+          preview3.classList.add('hide');
+          info3.style.backgroundColor = "white";
+          previewimage3.style.backgroundColor = "grey";
+      } else {
+          appinfo3.classList.add('hide');
+          preview3.classList.remove('hide');
+          info3.style.backgroundColor = "grey"; 
+          previewimage3.style.backgroundColor = "white"; 
+      }
+  }
+
 
 });

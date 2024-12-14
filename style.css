@@ -677,9 +677,16 @@ h3{
 }
 
 
-
 .projectimage{
   width: 100%;
+}
+
+.projectimage2{
+  width: 80%;
+}
+
+.projectimage3{
+  width: 80%;
 }
 
 .buttoncontainer {
@@ -739,12 +746,33 @@ h3{
   text-align: center;
 }
 
+.project3 .apppreviewbutton3 {
+  background-color: white;
+  border-top-left-radius: 25px;
+  padding: 10px;
+  font-size: 20px;
+  width: 50%;
+  cursor: pointer;
+  text-align: center;
+}
+
+.project3 .appinfobutton3 {
+  background-color: grey;
+  border-top-right-radius: 25px;
+  padding: 10px;
+  font-size: 20px;
+  width: 50%;
+  cursor: pointer;
+  text-align: center;
+}
+
 ol{
   list-style-type: none;
 }
 
 .project1 .buttoncontainer .btn,
-.project2 .buttoncontainer .btn {
+.project2 .buttoncontainer .btn,
+.project3 .buttoncontainer .btn {
     border: none;
 }
 
@@ -762,7 +790,8 @@ ol{
 /* ! Project Displays */
 
 .project1,
-.project2 {
+.project2, 
+.project3 {
   background: white;
   box-shadow: 2px 2px 10px black;
   border: 1px solid black;
@@ -774,17 +803,6 @@ ol{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-}
-
-.project3{
-  background: hsl(27, 5%, 11%, 0.04);
-  box-shadow: 2px 2px 10px black;
-  border: 1px solid black;
-  background: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .project4{
   background: hsl(27, 5%, 11%, 0.04);
@@ -817,7 +835,7 @@ ol{
   line-height: 2;
 }
 
-.project1 .appinfo .appinfo2 ol li{
+.project1 .appinfo .appinfo2 .appinfo3 ol li{
   list-style: none;
 }
 
@@ -836,6 +854,15 @@ ol{
 .appinfo2 p{
   color: black;
 }
+
+.appinfo3 h2{
+  font-size: 40px;
+}
+
+.appinfo3 p{
+  color: black;
+}
+
 
 /* ! Project Buttons */
 
