@@ -425,7 +425,8 @@
     }
 
     .fox {
-        right: 50vw;
+        right: 30vw;
+        width: 50px;
     }
 
     .btn-container{
