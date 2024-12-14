@@ -234,8 +234,8 @@
     }
 
     .fox {
-        right: 20vw;
-        bottom: 8.5vh;
+        right: 25vw;
+        bottom: 5vh;
         width: 100px;
     }
 
@@ -426,7 +426,8 @@
     }
 
     .fox {
-        right: 30vw;
+        right: 25vw;
+        bottom: 5vh;
         width: 80px;
     }
 
