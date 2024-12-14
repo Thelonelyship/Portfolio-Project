@@ -236,6 +236,7 @@
     .fox {
         right: 20vw;
         bottom: 8.5vh;
+        width: 100px;
     }
 
     .aboutme {
@@ -426,7 +427,7 @@
 
     .fox {
         right: 30vw;
-        width: 50px;
+        width: 80px;
     }
 
     .btn-container{
