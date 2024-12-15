@@ -392,6 +392,8 @@ nav{
   font-size: 3rem;
   color: white;
   animation: clouds 50s linear infinite;
+  position: relative;
+  transform: translateZ(0);
 }
 
 @keyframes clouds {
