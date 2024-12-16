@@ -615,8 +615,8 @@ h3{
   font-style: normal;
   white-space: nowrap;
   line-height: 220px;
-  color: #490047c5;
-  text-shadow: 0 10px 7px rgba(0,0,0,0.4),0 -5px 1px #92f7a0;
+  color: #6e006bc5;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.644),0 -4px 2px #92f7a0;
 }
 
 /* ! About Section Layout */
@@ -676,15 +676,16 @@ h3{
   z-index: 1;
 }
 
-.skills img {
+.skills img{
   width: 150px;
   border-radius: 50% 20% / 10% 40%;
-  background: hsla(140, 100%, 43%, 0.445);
+  background: hsla(140, 100%, 43%, 0.13);
   backdrop-filter: blur(5px) brightness(35%);
   padding: 10px;
+  box-shadow: 5px 5px 10px black;
 }
 
-.myskills {
+.myskills{
   font-family: "Permanent Marker", cursive;
   font-weight: 300;
   font-style: normal;
@@ -692,7 +693,7 @@ h3{
   font-size: 3rem;
   text-align: center;
   color: #310161d8;
-  text-shadow: 0 10px 9px rgba(0,0,0,0.4), 0 -3px 3px #e5e900;
+  text-shadow: 4px 4px 5px rgba(0,0,0,0.4), 0 -3px 3px #e5e900;
 }
 
 /* ! Portfolio Section Layout */
@@ -703,7 +704,7 @@ h3{
   background: linear-gradient(rgb(198, 244, 252), rgb(129, 194, 216), rgb(90, 154, 175));
 }
 
-.projectcontainers {
+.projectcontainers{
   display: grid;
   margin-left: 25px;
   margin-right: 25px;
