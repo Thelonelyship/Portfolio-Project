@@ -460,6 +460,7 @@ p{
 /* ! Buttons and social links in Hero section */
 
 .btn-container{
+  display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 80px;
