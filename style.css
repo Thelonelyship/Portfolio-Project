@@ -708,8 +708,8 @@ p{
   display: grid;
   margin-left: 25px;
   margin-right: 25px;
-  gap: 80px;
-  grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+  gap: 50px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 .tech img {
@@ -721,7 +721,7 @@ p{
 }
 
 .projectimage2{
-  width: 80%;
+  width: 90%;
 }
 
 .projectimage3{
