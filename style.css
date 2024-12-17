@@ -700,7 +700,7 @@ p{
 #portfolio{
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgb(198, 244, 252), rgb(129, 194, 216), rgb(90, 154, 175));
+  background: linear-gradient(rgb(198, 244, 252), rgb(198, 244, 252), rgb(90, 154, 175));
 }
 
 .projectcontainers{
@@ -840,7 +840,7 @@ ol{
 .portfoliotitle::after{
   content: '';
   position: absolute;
-  background: rgba(180,231,243,255);
+  background: rgb(198, 244, 252);
   border-radius: 50%;
   right: -100px;
   left: -100px;

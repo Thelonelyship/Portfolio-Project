@@ -281,14 +281,23 @@
         <div class="myemail">
             <p>If you have any questions or you would like to work together, you can contact me using this form or email me at:</p>
             <br>
-            <p class="myemailaddress"><a href="mailto:allanbramwell1987@gmail.com"><img src="images/email.png" alt="email icon" width="50px"> allanbramwell1987@gmail.com</a></p>
+            <p class="myemailaddress"><a href="mailto:allan@allanbramwell.dev"><img src="images/email.png" alt="email icon" width="50px"> allan@allanbramwell.dev</a></p>
         </div>
        
-        <form action="">
+        <form action="https://formsubmit.co/allan@allanbramwell.dev" method="POST">
            <div> 
             <label for="fullname">Full Name:</label><br>
             <input type="text" name="fullname" id="fullname" placeholder="Enter Your Full Name:" required> </div>
             <br>
+            <div>
+                <input type="hidden" name="_subject" value="New Portfolio Message">
+            </div>
+            <div>
+                <input type="hidden" name="_captcha" value="false">
+            </div>
+            <div>
+                <input type="hidden" name="_next" value="https://www.allanbramwell.dev/thankyou.html">
+            </div>
         <div>
             <label for="email">Email Address:</label><br>
             <input type="email" name="email" id="email" placeholder="Email Address:" required>

@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Dangrek&family=DynaPuff:wght@400..700&family=Modak&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    background-image: linear-gradient(black, rgba(55, 1, 94, 0.993), black);
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    padding: 0 20px;
+}
+
+.logo{
+    z-index: 3;
+}
+
+.logo a{
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+
+.logo a:hover{
+    color: rgb(0, 104, 0);
+    text-decoration: underline;
+}
+
+.logoimage{
+    height: 80px;
+}
+
+
+.thanks{
+    width: 100vw;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.thankbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(163, 0, 238, 0.596);
+    backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+    max-width: 90%;
+}
+
+h1{
+    font-size: 4rem;
+    margin-bottom: 20px;
+    font-family: "DynaPuff", sans-serif;
+    font-weight: 200;
+    text-shadow: 3px 3px 5px rgba(80, 0, 100, 0.644), 0 -2px 2px #92f7a0;
+}
+
+.thanks a{
+    padding-top: 50px;
+    color: aquamarine;
+    font-size: 1.3rem;
+}
+
+.thanks p, h2{
+    line-height: 1.5;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+p{
+    color: rgb(170, 255, 0);
+}
+
+h2{
+    color: rgb(0, 195, 255);
+}
+
+.icons{
+    padding-top: 50px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icons a{
+    cursor: pointer;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px){
+    #navbar {
+        flex-direction: row;
+        padding: 10px;
+        text-align: center;
+}
+
+    .logo a{
+        font-size: 1.2rem;
+}
+
+    .logoimage{
+        max-height: 80px;
+}
+
+    .thankbox{
+        padding: 15px;
+}
+
+    h1{
+        font-size: 4rem;
+}
+
+    .thanks p, h2{
+        font-size: 0.9rem;
+        padding: 10px;
+}
+
+    .icons{
+        margin: 15px;
+        gap: 15px;
+}
+}
+
+@media (max-width: 480px) {
+    #navbar{
+        padding: 5px;
+}
+
+    .logo a{
+        font-size: 1rem;
+}
+
+    .logoimage{
+        max-height: 80px;
+}
+
+    h1{
+        font-size: 3rem;
+}
+
+    .thanks p, h2{
+        font-size: 0.8rem;
+    }
+
+    .icons{
+        gap: 10px;
+}
+}
