@@ -65,6 +65,10 @@
     margin: 30px;
     padding: 10px;
 }
+
+.skills{
+    gap: 20px;
+}
     
 .projectcontainers {
     display: grid;
@@ -172,6 +176,10 @@
     font-size: 25px;
     margin-top: 2px;
     margin-bottom: 15px;
+}
+
+.skills{
+    gap: 20px;
 }
 
 .projectcontainers{
@@ -317,7 +325,7 @@
 }
 
 .skills{
-    grid-template-columns: 1fr, 1fr;
+    gap: 10px;
 }
 
 .skills img{
@@ -525,7 +533,6 @@ form{
 }
 
 .skills{
-    grid-template-columns: 1fr, 1fr;
     gap: 10px;
 }
 
