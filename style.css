@@ -1003,11 +1003,13 @@ ol{
 
 #contactform input,
 #contactform textarea {
+  position: relative;
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
+  z-index: 5;
 }
 
 #contactform .contactbutton {
@@ -1099,6 +1101,7 @@ ol{
   font-weight: 600;
   font-style: normal;
   box-shadow: inset 1px 1px 5px 5px black;
+  z-index: 5;
 }
 
 #contactform form::before{
