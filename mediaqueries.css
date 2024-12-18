@@ -570,4 +570,11 @@ form{
     text-shadow: none;
 }
 
+.appinfo, 
+.appinfo2, 
+.appinfo3{
+    line-height: 1.4;
+    padding: 10px;
+}
+
 }
