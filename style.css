@@ -969,6 +969,11 @@ ol{
   z-index: 0;
 }
 
+.projectbtn:hover{
+  cursor: pointer;
+  background-color: #9200cc;
+}
+
 /* ! Contact Form Layout */
 
 #contactform{
@@ -980,7 +985,7 @@ ol{
   margin: auto;
   padding: 20px;
   background-color: white;
-  border-radius: 8px;
+  border-radius: 55px;
 }
 
 .contactbg{
@@ -1005,18 +1010,21 @@ ol{
   font-size: 16px;
 }
 
-#contactform button {
+#contactform .contactbutton {
+  position: relative;
   padding: 10px 20px;
-  background-color: rgb(129, 194, 216);
-  color: black;
+  background-color: rgb(0, 49, 8);
+  color: white;
   font-size: 16px;
   border: none;
   border-radius: 4px;
-  cursor: pointer;
+  z-index: 5;
 }
 
-#contactform button:hover {
-  background-color: #dc5af7;
+#contactform .contactbutton:hover {
+  background-color: #c55af7;
+  cursor: pointer;
+  z-index: 5;
 }
 
 /* ! Contact Title */
@@ -1080,15 +1088,31 @@ ol{
 /* ! Actual Contact Form */
 
 #contactform form {
+  position: relative;
   z-index: 2;
   padding: 25px;
-  border-radius: 15px;
+  border-radius: 55px;
   text-align: center;
-  color: white;
-  background: black;
+  color: black;
+  background: linear-gradient(rgb(198, 244, 252), rgb(76, 127, 145));
   font-family: "Poppins", sans-serif;
-  font-weight: 300;
+  font-weight: 600;
   font-style: normal;
+  box-shadow: inset 1px 1px 5px 5px black;
+}
+
+#contactform form::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 55px; 
+    padding: 3px;
+    background:linear-gradient(45deg,rgb(0, 99, 38) 0%,rgba(109, 2, 170, 0.692) 50%,rgba(2, 170, 66, 0.692) 100%); 
+    -webkit-mask: 
+            linear-gradient(#fff 0 0) content-box, 
+            linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude; 
 }
 
 input {
