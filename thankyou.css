@@ -9,8 +9,7 @@
 body{
     margin: 0;
     font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    background-image: linear-gradient(black, rgba(55, 1, 94, 0.993), black);
+    background-image: linear-gradient(black, rgb(90, 154, 175), rgb(90, 154, 175), black);
     overflow-x: hidden;
     height: 100vh;
 }
@@ -67,7 +66,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.151);
     box-shadow: 0 8px 32px rgba(163, 0, 238, 0.596);
     backdrop-filter: blur(2.5px);
     border-radius: 10px;
@@ -75,36 +74,36 @@ body{
 }
 
 h1{
+    color: #0314fd79;
     font-size: 4rem;
     margin-bottom: 20px;
     font-family: "DynaPuff", sans-serif;
     font-weight: 200;
-    text-shadow: 3px 3px 5px rgba(80, 0, 100, 0.644), 0 -2px 2px #92f7a0;
+    text-shadow: 1px 1px 5px rgb(228, 245, 0), 0 -1px 1px #e100ff6e;
 }
 
 .thanks a{
-    padding-top: 50px;
-    color: aquamarine;
-    font-size: 1.3rem;
+    padding-top: 20px;
+    color: rgb(0, 255, 221);
+    font-size: 1.4rem;
+    text-shadow: 1px 1px 2px black;
+    text-underline-offset: 10px;
 }
 
 .thanks p, h2{
     line-height: 1.5;
     padding: 15px;
-    font-size: 1rem;
 }
 
 p{
-    color: rgb(170, 255, 0);
+    color: rgb(0, 247, 255);
 }
 
 h2{
-    color: rgb(0, 195, 255);
+    color: rgb(134, 0, 243);
 }
 
 .icons{
-    padding-top: 50px;
-    margin: 20px;
     display: flex;
     justify-content: center;
     gap: 20px;
