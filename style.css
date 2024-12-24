@@ -706,9 +706,9 @@ p{
 
 .projectcontainers{
   display: grid;
-  margin-left: 25px;
-  margin-right: 25px;
-  gap: 10%;
+  margin-left: 85px;
+  margin-right: 85px;
+  gap: 5%;
   grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
 }
 
@@ -717,11 +717,11 @@ p{
 }
 
 .projectimage{
-  width: 100%;
+  width: 90%;
 }
 
 .projectimage2{
-  width: 90%;
+  width: 70%;
 }
 
 .projectimage3{
@@ -729,7 +729,7 @@ p{
 }
 
 .projectimage4{
-  width: 50%;
+  width: 70%;
 }
 
 .buttoncontainer {
