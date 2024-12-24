@@ -200,6 +200,11 @@
     max-height: 100px;
     bottom: 10px;
 }
+
+.contactbg{
+    padding: 50px;
+}
+
 }
 
 @media (max-width: 768px) {
@@ -400,6 +405,9 @@ form{
     max-width: 50px;
     max-height: 100px;
     bottom: 10px;
+}
+.contactbg{
+    padding: 50px;
 }
 }
 
