@@ -685,6 +685,16 @@ p{
   box-shadow: 5px 5px 10px black;
 }
 
+.skills img:hover{
+  animation: rotate 6s linear infinite;
+}
+
+@keyframes rotate { 
+  100% { 
+      transform:rotate(360deg); 
+  } 
+}
+
 .myskills{
   font-family: "Permanent Marker", cursive;
   font-weight: 300;
