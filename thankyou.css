@@ -66,15 +66,15 @@ body{
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.151);
-    box-shadow: 0 8px 32px rgba(163, 0, 238, 0.596);
+    background: rgba(0, 175, 0, 0.123);
+    box-shadow: 0 8px 32px rgba(163, 0, 238, 0.959);
     backdrop-filter: blur(2.5px);
     border-radius: 10px;
     max-width: 90%;
 }
 
 h1{
-    color: #0314fd79;
+    color: #0314fdc0;
     font-size: 4rem;
     margin-bottom: 20px;
     font-family: "DynaPuff", sans-serif;
@@ -84,9 +84,9 @@ h1{
 
 .thanks a{
     padding-top: 20px;
-    color: rgb(0, 255, 221);
+    color: rgba(255, 0, 0, 0.815);
     font-size: 1.4rem;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 2px rgba(219, 132, 0, 0.877);
     text-underline-offset: 10px;
 }
 
@@ -97,6 +97,7 @@ h1{
 
 p{
     color: rgb(0, 247, 255);
+    text-shadow: 1px 1px 2px black;
 }
 
 h2{
